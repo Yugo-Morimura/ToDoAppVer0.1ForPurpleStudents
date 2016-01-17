@@ -1,15 +1,8 @@
+/*ナビゲーションバーの背景色の設定*/
 #ToDoMainNavigationBar{
-    
     background-color: #FFE57F;
-   
 }
-
-
-
-
-    
+/*文字のフォントの設定*/
 a,h1{
-
     font-family: 'Raleway', sans-serif;
-
 }

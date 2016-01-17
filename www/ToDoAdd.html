@@ -1,18 +1,24 @@
 <ons-page>
-    <div class="navigation-bar navigation-bar--transparent" id="ToDoMainNavigationBar">
-        <div class="navigation-bar__left"><span class="toolbar-button--quiet navigation-bar__line-height" onclick="myNavigator.popPage('ToDoMain.html')">Back</span>
-        </div>
-        <div class="navigation-bar__center"><a>AddPage</a></div>
-        <div class="navigation-bar__right"><span onclick="myNavigator.pushPage('ToDoAdd.html')" id="add_button" class="toolbar-button--quiet
-      navigation-bar__line-height"></span>
-        </div>
-    </div>
+  <!--ナビゲーションバーの追加-->
+  <div class="navigation-bar navigation-bar--transparent" id="ToDoMainNavigationBar">
+    <!--左側に戻るボタンを追加-->
+      <div class="navigation-bar__left"><span class="toolbar-button--quiet navigation-bar__line-height" onclick="myNavigator.popPage('ToDoMain.html')">Back</span>
+      </div>
+      <!--真ん中にAddPageのタイトルを追加-->
+      <div class="navigation-bar__center"><a>AddPage</a></div>
+      <!--右側には空白を追加-->
+      <div class="navigation-bar__right">
+      </div>
+  </div>
+  <!--文字をセンタリング-->
     <div style="text-align: center">
-        <br>
-         <br><br> <br><br> <br><br> <br><br>
-        <input type="text" class="text-input text-input--underbar" placeholder="Add ToDo" id="addText">
-        <br><br> <br><br>
-        <button class="button button--quiet" onclick="add()"><h1>Add</h1></button>
-
+      <br>
+      <br><br> <br><br> <br><br> <br><br>
+      <!--テキストを書き込む所を追加-->
+      <input type="text" class="text-input text-input--underbar" placeholder="Add ToDo" id="addText">
+      <br><br> <br><br>
+      <!--追加ボタンを追加-->
+      <button class="button button--quiet" onclick="add()"><h1>Add</h1></button>
+      
     </div>
 </ons-page>
